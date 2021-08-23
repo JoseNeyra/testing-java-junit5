@@ -4,27 +4,12 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>guru.springframework</groupId>
+    <groupId>com.springframework</groupId>
     <artifactId>testing-java-junit5</artifactId>
     <version>1.0-SNAPSHOT</version>
 
     <name>testing-java-junit5</name>
     <description>Testing Java with JUnit 5</description>
-
-    <organization>
-        <name>Spring Framework Guru</name>
-        <url>https://springframework.guru/</url>
-    </organization>
-
-    <developers>
-        <developer>
-            <id>jt</id>
-            <name>John Thompson</name>
-            <email>john@springframework.guru</email>
-        </developer>
-    </developers>
-
-    <inceptionYear>2018</inceptionYear>
 
     <licenses>
         <license>
@@ -39,7 +24,7 @@
         <java.version>11</java.version>
         <maven.compiler.source>${java.version}</maven.compiler.source>
         <maven.compiler.target>${java.version}</maven.compiler.target>
-        <junit-platform.version>5.3.1</junit-platform.version>
+        <junit-platform.version>5.7.2</junit-platform.version>
     </properties>
 
     <dependencies>
@@ -51,7 +36,7 @@
         <dependency>
             <groupId>org.apache.commons</groupId>
             <artifactId>commons-lang3</artifactId>
-            <version>3.8.1</version>
+            <version>3.12.0</version>
         </dependency>
         <dependency>
             <groupId>org.junit.jupiter</groupId>
